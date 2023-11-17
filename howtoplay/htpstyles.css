@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-size: 50px;
+    margin-top: -50px;
+}
+
+body{
+    background-image: url('/img/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player1-container, .player2-container {
+    display: flex;
+    border: 3px solid;
+    max-width: 100%;
+    flex-direction: column;
+    margin: 20px; 
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole-container{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+img{
+    margin: 20px;
+    max-width: 50%;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .whole-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+}
+
+
