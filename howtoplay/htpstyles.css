@@ -11,7 +11,7 @@ header{
 }
 
 body{
-    background-image: url('img/2.png');
+    background-image: url('/img/2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
